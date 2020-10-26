@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<group>
+	<deferred>
+		<BgPass>
+			<active>1</active>
+			<fill_color>0.0437658, 0.0312702, 0.0278286, 1</fill_color>
+		</BgPass>
+		<ShadowLightPass>
+			<active>0</active>
+			<near_clip>0</near_clip>
+			<far_clip>3701.18</far_clip>
+			<view_port_size>1072</view_port_size>
+			<darkness>0.10454</darkness>
+			<ambient_color>0.366983, 0.429967, 0.7, 1</ambient_color>
+			<diffuse_color>0.697192, 0.656701, 0.616893, 1</diffuse_color>
+			<source_position>328.991, -824.27, -389.077</source_position>
+			<source_look>-20.4614, 55.6973, 251.534</source_look>
+		</ShadowLightPass>
+		<PointLightPass>
+			<active>0</active>
+			<lightBrightness>14.8584</lightBrightness>
+			<light_0>
+				<isActive>0</isActive>
+				<diffuse_color>0.438931, 1, 0.218607, 1</diffuse_color>
+				<specular_color>0.787612, 0.660963, 0.425392, 1</specular_color>
+				<position>-128.045, -353.552, -32.6388</position>
+				<radius>600</radius>
+				<intensity>0.181889</intensity>
+			</light_0>
+			<light_1>
+				<isActive>0</isActive>
+				<diffuse_color>0.765333, 0.450111, 0.407634, 1</diffuse_color>
+				<specular_color>0.447663, 0.527503, 0.640961, 1</specular_color>
+				<position>45.4211, 19.4012, 19.4012</position>
+				<radius>434.281</radius>
+				<intensity>0.633444</intensity>
+			</light_1>
+		</PointLightPass>
+		<DofPass>
+			<active>1</active>
+			<endpoint_coc>0.723755, 0.702505</endpoint_coc>
+			<focul_range>0.0384534, 0.521883</focul_range>
+			<BlurPass>
+				<active>1</active>
+				<preShrink>4</preShrink>
+				<sampleStep>0.490789</sampleStep>
+				<blurRes>12</blurRes>
+			</BlurPass>
+		</DofPass>
+		<BloomPass>
+			<active>1</active>
+			<luma_threshold>0.875886</luma_threshold>
+			<strength>1.82633</strength>
+			<BlurPass>
+				<active>1</active>
+				<preShrink>2</preShrink>
+				<sampleStep>1</sampleStep>
+				<blurRes>13</blurRes>
+			</BlurPass>
+		</BloomPass>
+		<EdgePass>
+			<active>0</active>
+			<edge_color>0, 0, 0, 1</edge_color>
+			<bg_color>0, 0.681255, 0, 0</bg_color>
+			<use_read_as_bg>1</use_read_as_bg>
+			<normalEdgeStrength>0.193045</normalEdgeStrength>
+			<depthEdgeStrength>0</depthEdgeStrength>
+		</EdgePass>
+		<SsaoPass>
+			<active>0</active>
+			<occlusion_radius>6.26823</occlusion_radius>
+			<darkness>0.0993337</darkness>
+		</SsaoPass>
+	</deferred>
+	<stretch>1</stretch>
+</group>
